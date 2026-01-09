@@ -1,0 +1,15 @@
+# Core dependencies
+pyspark==3.5.0
+faker==22.0.0
+pandas==2.1.4
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+
+# Privacy
+cryptography==41.0.7
+
+# Testing
+pytest==7.4.3
+
+# Utilities
+tqdm==4.66.1
