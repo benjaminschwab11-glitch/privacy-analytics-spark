@@ -8,8 +8,11 @@ import hmac
 import secrets
 from typing import Dict, Any, Optional
 from enum import Enum
-from pii_detector import PIIType
 
+try:
+    from privacy.pii_detector import PIIType
+except ImportError:
+    from pii_detector import PIIType
 
 class AnonymizationMethod(Enum):
     """Anonymization techniques available"""

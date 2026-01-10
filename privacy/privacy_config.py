@@ -3,9 +3,12 @@ Privacy Configuration
 Defines privacy policies for user analytics dataset
 """
 
-from pii_detector import PIIType
-from anonymizer import AnonymizationMethod
-
+try:
+    from privacy.pii_detector import PIIType
+    from privacy.anonymizer import AnonymizationMethod
+except ImportError:
+    from pii_detector import PIIType
+    from anonymizer import AnonymizationMethod
 
 class PrivacyConfig:
     """
