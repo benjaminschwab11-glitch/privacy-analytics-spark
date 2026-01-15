@@ -12,7 +12,7 @@
 
 Production-grade user analytics platform demonstrating privacy-preserving data engineering at scale. Processes 1+ million synthetic user records and 50+ million behavioral events using Apache Spark and Kafka, with automatic PII detection, anonymization, and GDPR/CCPA compliance built-in.
 
-**Built to demonstrate Netflix L5 Data Engineer skills:**
+**Built to demonstrate Senior  Data Engineer skills:**
 - Large-scale distributed data processing
 - Privacy-centric data engineering
 - Real-time event streaming
